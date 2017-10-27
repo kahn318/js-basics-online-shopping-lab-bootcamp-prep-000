@@ -72,7 +72,7 @@ function removeFromCart(item) {
   if (tracker === -1) {
     console.log("That item is not in your cart.");
   } else {
-    cart.splice(counter, 1);
+    cart.splice(tracker, 1);
   }
   return cart;
 }
